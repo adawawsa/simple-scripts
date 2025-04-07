@@ -1,5 +1,5 @@
 def remove_duplicates_ordered(input_list):
-    #空のリストとセットを使って順序を保持して重複を削除
+    # 空のリストとセットを使って順序を保持して重複を削除
     seen = set()
     result = []
     for item in input_list:
@@ -9,7 +9,7 @@ def remove_duplicates_ordered(input_list):
     
     return result
     
-#使用例
+# 使用例
 original_list = [1, 2, 2, 3, 4, 4, 5]
 unique_ordered_list = remove_duplicates_ordered(original_list)
 
